@@ -6,6 +6,11 @@ body {
   color: #5a5a5a;
 }
 
+.text-muted{
+  padding-top: 8px;
+  color: #777;
+}
+
 /*Navigator*/
 .navbar-wrapper{
     position: absolute;
@@ -27,6 +32,14 @@ body {
 
 .navbar-wrapper .navbar .container{
     width: auto;
+}
+
+/*custom nav height*/
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
 }
 
 /*Carousel*/
@@ -59,11 +72,29 @@ body {
     padding: 50px 0;
 }
 
+.text-primary{
+  color: #BB0A24;
+}
+.mision-item{
+  height: 320px;
+}
+
+ul.mision-list{
+  padding-top: 10px;
+}
+li.mision-list-item{
+
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-weight: 200px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 /*Nosotros*/
 
 .nosotros {
     padding: 50px 0;
-    background-color: #BB0A24;
+    background-color: #000;
 }
 
 .nosotros-item {
@@ -77,14 +108,45 @@ body {
 
 hr.small {
     max-width: 100px;
+    border-width: 5px;
+}
+.team-member{
+  text-align:center;margin-bottom:50px
 }
 
+.team-member img{
+  margin:0 auto;border:7px solid #fff
+}
+
+.team-member h4{
+  margin-top:25px;margin-bottom:0;text-transform:none
+}
+
+.team-member p{
+  margin-top:0
+}
+
+/*consultoria*/
+.consultoria{
+  background-color: #BB0A24;
+  color: #fff;
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+
+.consultoria-item{
+  height: 320px;
+}
+/*investigation*/
+.investigation{
+  padding: 50px 0;
+}
 /*Capacitation*/
 
 .courses{
   padding: 50px 0;
   background-color: #000;
-  color: #d9d9d9;
+  color: #fff;
 }
 
 .courses-item {
@@ -153,8 +215,6 @@ hr.small {
 }
 
 .contactanos-heading {
-  font-weight: 300;
-  line-height: 1;
   margin-bottom: 20px;
   text-align: center;
   color: #FFFFFF;
