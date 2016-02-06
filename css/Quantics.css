@@ -20,6 +20,28 @@ body {
     z-index: 20;
 }
 
+/*Set hover colour*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #BB0A24;  
+}
+
+/*navbar-brand color*/
+.navbar-default .navbar-brand {
+    color: #fff;
+
+}
+/*navbar-brand color on hover*/
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  color: #BB0A24; ;
+}
+
+/*Change colour of active nav text*/
+.navbar-default .navbar-nav > li > a {
+   color: #fff; 
+   font-size: medium;
+}
+
 .navbar-wrapper > .container{
     padding-right: 0;
     padding-left: 0;
@@ -115,7 +137,7 @@ hr.small {
 }
 
 .team-member img{
-  margin:0 auto;border:7px solid #fff
+  margin:0 auto;border:7px solid #BB0A24
 }
 
 .team-member h4{
