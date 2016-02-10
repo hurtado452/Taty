@@ -159,6 +159,25 @@ hr.small {
 .consultoria-item{
   height: 320px;
 }
+
+.btn{
+  color: #BB0A24;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px ;
+  border: transparent;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #BB0A24;
+  border: transparent;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  -ms-transition: all, .35s;
+  transition: all .35s;
+
+}
 /*investigation*/
 .investigation{
   padding: 50px 0;
@@ -198,6 +217,7 @@ hr.small {
     background: #BB0A24;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
+    -ms-transition: all .35s;
     transition: all .35s;
 }
 
